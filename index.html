@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Number Guessing Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrap">
-    <div id="wrapper">
+      <div id="wrapper">
         <h1>Number Guessing Game</h1>
         <p>Try and Guess a random number Beetween 1 and 100.</p>
         <p>You have 10 attempt to guess the right number.</p>
-        <br>
+        <br />
         <form class="form">
-            <label for="guessField" id="guess">Guess a Number</label>
-            <br><br>
-            <input type="text" id="guessField" class="guessField" placeholder="Enter The Number">
-            <br><br>
-            <input type="submit" id="subt" value="Submit Guess">
+          <label for="guessField" id="guess">Guess a Number</label>
+          <br /><br />
+          <input
+            type="text"
+            id="guessField"
+            class="guessField"
+            placeholder="Enter The Number"
+          />
+          <br /><br />
+          <input type="submit" id="subt" value="Submit Guess" />
         </form>
         <div class="resultParas">
-            <p class="prvguess">Previous Guesses : <span class="guesses"></span></p>
-            <p class="rem">Guesses Remaining : <span class="lastResult">10</span></p>
-            <p class="lowOrHi"></p>
+          <p class="prvguess">
+            Previous Guesses : <span class="guesses"></span>
+          </p>
+          <p class="rem">
+            Guesses Remaining : <span class="lastResult">10</span>
+          </p>
+          <p class="lowOrHi"></p>
         </div>
-    </div>
-    
-    <footer class="foot">
-        Made By Gaurav Kumar<br />Deparment of Computer Science<br />Banaras Hindu
-        University (BHU) <br />&copy; 2025 All right reserved
-      </footer>
       </div>
-</body>
-<script src="app.js"></script>
+
+      <footer class="foot">
+        Made By Gaurav Kumar<br />Deparment of Computer Science<br />Banaras
+        Hindu University (BHU) <br />&copy; 2025 All right reserved
+      </footer>
+    </div>
+  </body>
+  <script src="app.js"></script>
 </html>
